@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FlappyBird Style Game</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <script defer src="bird.js"></script>
+    <script defer src="particles.js"></script>
+    <script defer src="obstacles.js"></script>
+    <script defer src="main.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <canvas id="canvas1"></canvas>
+    </div>
+
+    <div class="title">
+      <h4>Spacebar to jump</h4>
+    </div>
+
+    <div class="game-over hidden">
+      <h2 class="heading">Game Over</h2>
+      <h3 id="points"></h3>
+      <button class="reload">Restart</button>
+    </div>
+  </body>
+</html>
